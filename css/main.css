@@ -1,0 +1,302 @@
+/* Heading Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+/* Normal */
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+.h1-color, .h2-color, .h3-color, .h4-color {
+	color: #254e70;
+	padding-bottom: 0.5em;
+}
+
+.h1-big-color-light, .h2-big-color-light, .h3-big-color-light, .h4-big-color-light {
+	font-size: 4em;
+	font-weight: 300;
+	color: #254e70;
+	padding-bottom: 0.5em;
+}
+
+span {
+	padding:  0;
+	margin: 0 auto;
+}
+
+span, p, ul > li {
+	font-family: 'Nunito', sans-serif;
+	font-family: 500;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.para-text {
+	font-size: 1.2em;
+	padding-bottom: 1.3em;
+}
+
+header {
+	background-color: #F3F3F3;
+}
+
+
+.legend-col {
+	
+}
+
+.footer {
+	/*height: 10px;
+	min-height: 10px;*/
+	background-color: #8EE3EF;
+}
+
+
+.footer-text-container {
+	margin-left: 0 auto;
+	margin-right: 0 auto; 
+	padding-right: 5em;
+	padding-left: 5em;
+	vertical-align: middle;
+	background-color: #8EE3EF;
+}
+
+.footer-text {
+	color: #254E70;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin:0 auto;
+}
+
+.icons a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+	vertical-align: middle;
+	/*
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+	*/
+}
+
+.icons a.twitter { background: url(../img/social/twt.png) center top no-repeat; }
+.icons a.facebook { background: url(../img/social/fbk.png) center top no-repeat; }
+.icons a.email { background: url(../img/social/email.png) center top no-repeat; }
+.icons a:hover { background-position: left -34px; }
+
+.footer-ul {
+	list-style: none;
+}
+
+.footer-text {
+	font-size: 1.3em;
+}
+
+.container-padded {
+	padding-top: 4em;
+	padding-bottom: 6em;
+}
+
+.container-padded-top {
+	padding-top: 4em;
+	padding-bottom: 0;
+}
+
+.container-padded-side-left {
+	padding-left: 1.8em;
+}
+
+.container-padded-side-left-large {
+	margin-left: 2.8em;
+}
+
+.container-padded-bottom {
+	padding-bottom: 6em;
+}
+
+.container-padded-bottom-low {
+	padding-bottom: 3em;
+}
+
+.dark-container {
+	border-top: 5px solid #8EE3EF;
+	background-color: #345995;
+	color: #FFFFFF;
+}
+
+.dark-link, .dark-link:active, .dark-link:focus {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+/* --------
+ *  NAVBAR
+ * --------
+ */
+.navbar {
+	width: 100%;
+	min-height: 70px;
+	height: 70px;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #345995;
+	border: 0;
+	border-top: 5px solid #8EE3EF;
+}
+
+.navbar-container {
+	padding-top: 10px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	font-weight: 900;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #8EE3EF;
+	font-size: 1.3em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
+
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    float: none;
+    vertical-align: top;
+	margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+
+.navbar-item {
+	text-transform: uppercase;
+	font-weight: 900;	
+}
+
+
+
+/* ----------------
+ *  INDEX CAROUSEL
+ * ---------------- 
+*/
+
+/* Carousel base class */
+.carousel {
+	height: 500px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+	/*background: rgba(60, 60, 60, 0.4);*/
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 40;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
+.carousel-caption {
+	text-align: center;
+	bottom: 100px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	width: 5%;
+	background-image: none;
+	background-color: none;
+}
+
+.carousel-head {
+	font-weight: 800;
+	font-size: 3.2em;
+}
+
+
+.carousel-text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.8em;
+}
+
+
+.flexbox {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-flow: column;
+}
+
+
+/*
+	SVG ICONS
+*/
+
+.svg-logo-1-primary {
+	fill: #345995;
+}
+
+.svg-logo-1-secondary {
+	fill: #C33C54;
+}
+
+.svg-logo-2-primary {
+	fill: #03CEA4;
+}
+
+.svg-logo-2-secondary {
+	fill: #345995;
+}
+
+.panel-group .panel {
+	border-radius: 0;
+	margin-bottom: 1em;
+}
+
+.panel-default > .panel-heading {
+	color: #345995;
+	background-color: #FFFFFF;
+	border: 0px;
+	border-radius: 0;
+	border-bottom:  3px solid #03CEA4;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	border: 0;
+	border-radius: 0;
+	background-color: #DEEDEA;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.0em;
+}
